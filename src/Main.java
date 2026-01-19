@@ -90,8 +90,10 @@ public class Main {
         String contrasenya="capi21capi";
         Scanner sc = new Scanner(System.in);
         while(true){
-            String opcion = sc.nextLine();
-            if (opcion.equals(nombre.toLowerCase())&&opcion.equals(contrasenya)){
+            String name = sc.nextLine();
+            String password = sc.nextLine();
+
+            if (name.equals(nombre.toLowerCase())&&password.equals(contrasenya)){
                 break;
             }
             else {
@@ -106,11 +108,12 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int cont=3;
         while(true){
-            String opcion = sc.nextLine();
+            String name = sc.nextLine();
+            String password = sc.nextLine();
             if (cont==0){
                 break;
             }
-            else if (opcion.equals(nombre.toLowerCase())&&opcion.equals(contrasenya)){
+            else if (name.equals(nombre.toLowerCase())&&password.equals(contrasenya)){
                 break;
             }
             else {
