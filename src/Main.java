@@ -68,8 +68,9 @@ public class Main {
         int i = new Random().nextInt(10)+1;
         while(true){
             Scanner sc = new Scanner(System.in);
-            String opcion = sc.nextLine();
-            if (opcion.equals(i)){
+            System.out.println("Ingrese el valor del numero");
+            int opcion = sc.nextInt();
+            if (opcion == i){
                 break;
             }
         }
