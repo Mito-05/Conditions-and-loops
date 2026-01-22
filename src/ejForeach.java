@@ -25,7 +25,12 @@ public class ejForeach {
 
     public static void foreach3() {
         System.out.println("Ejercicio 3");
-        ArrayList<Double> decimales = new ArrayList<>(Arrays.asList(10.5, 20.0, 15.75, 5.25, 8.5));
+        ArrayList<Double> decimales = new ArrayList<>();
+        decimales.add(10.5);
+        decimales.add(20.0);
+        decimales.add(15.75);
+        decimales.add(5.25);
+        decimales.add(8.5);
         double suma = 0;
         for (double i : decimales) {
             suma += i;
@@ -35,7 +40,12 @@ public class ejForeach {
 
     public static void foreach4() {
         System.out.println("Ejercicio 4");
-        ArrayList<Integer> lista = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));
+        ArrayList<Integer> lista = new ArrayList<>();
+        lista.add(1);
+        lista.add(2);
+        lista.add(3);
+        lista.add(4);
+        lista.add(5);
         int pares = 0;
         int impares = 0;
         for (int i : lista) {
